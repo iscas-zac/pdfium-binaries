@@ -43,6 +43,9 @@ mkdir -p "$BUILD"
       echo 'pdf_is_complete_lib = true'
       echo 'is_clang = false'
       ;;
+    android)
+      echo 'pdf_is_complete_lib = true'
+      ;;
   esac
 
   case "$TARGET_LIBC" in
